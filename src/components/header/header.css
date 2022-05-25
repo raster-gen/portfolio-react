@@ -70,3 +70,27 @@ header {
   transform: rotate(-90deg);
   color: var(--color-primary);
 }
+
+/* -----------Media queries (medium / tablets)-------- */
+
+@media screen and (max-width: 1024px) {
+  header {
+    height: 70vh;
+    padding-top: 2rem;
+  }
+
+  
+}
+
+/* -----------Media queries (small / phones)-------- */
+
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+
+  .header__socials, .scroll__down {
+    display: none;
+  }
+  
+}
