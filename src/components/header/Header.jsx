@@ -1,8 +1,9 @@
 import React from "react";
-import classes from "./Header.module.css";
+import "./header.css";
 import CTA from "./CTA";
 import myPhoto from "../../assets/me.png";
 import HeaderSocials from "./HeaderSocials";
+import { BsArrowDown } from "react-icons/bs";
 
 const Header = () => {
   return (
@@ -16,9 +17,12 @@ const Header = () => {
         <div className="me">
           <img src={myPhoto} alt="me" />
         </div>
-        <a href="#contact" className="scroll__down">
-          Scroll Down
-        </a>
+        <div className="scroll__down">
+          <div className="arrow__down">
+            <BsArrowDown />
+          </div>
+          <a href="#contact">Scroll Down</a>
+        </div>
       </div>
     </header>
   );
