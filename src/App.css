@@ -126,10 +126,10 @@ a:hover {
 
 @media screen and (max-width: 600px) {
   .container {
-    width: var(--container-width-md);
+    width: var(--container-width-sm);
   }
-  .section {
-    margin-top: 6rem;
+  .section > h2 {
+    margin-top: 2rem;
     
   }
 }
