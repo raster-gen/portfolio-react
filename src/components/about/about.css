@@ -104,5 +104,10 @@
   .about__cards {
     grid-template-columns: 1fr;
     margin: 0 2rem;
+    padding: 1rem;
+  }
+
+  .about__card {
+    padding: 1rem;
   }
 }
