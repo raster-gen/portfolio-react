@@ -42,9 +42,11 @@ const About = () => {
             consectetur laudantium nemo eum accusantium! Vero quidem autem
             reprehenderit itaque ipsum?
           </p>
-          <a href="#contact" className="btn btn-primary">
-            Let's Talk
-          </a>
+          <div className="about__btn">
+            <a href="#contact" className="btn btn-primary">
+              Let's Talk
+            </a>
+          </div>
         </div>
       </div>
     </section>

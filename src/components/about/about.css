@@ -65,3 +65,44 @@
   color: var(--color-light);
 }
 
+/* -----------Media queries (medium / tablets)-------- */
+
+@media screen and (max-width: 1100px) {
+  .about__container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .about__me {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+
+  .about__content p {
+    margin: 1rem 2rem 1.5rem;
+  }
+
+  .about__cards {
+    margin: 0 2rem;
+  }
+
+  .about__btn {
+    display: flex;
+    justify-content: center;
+  }
+  
+}
+
+/* -----------Media queries (small / phones)-------- */
+
+@media screen and (max-width: 600px) {
+  .about__me {
+    width: 65%;
+    margin: 0 auto 2rem;    
+  } 
+
+  .about__cards {
+    grid-template-columns: 1fr;
+    margin: 0 2rem;
+  }
+}
