@@ -1,0 +1,7 @@
+.experience__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  gap: 2rem;
+
+  
+}
