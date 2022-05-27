@@ -1,6 +1,6 @@
 .card__container {
   background: var(--color-bg-variant);
-  padding: 2.4rem 5rem;
+  padding: 2rem;
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
@@ -20,7 +20,7 @@
 
 .card__content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   row-gap: 2rem;
   gap: 1rem;
   justify-content: center;
@@ -28,13 +28,10 @@
 
 .card__content_details {
   display: flex;
-  gap: 1rem;
-  
-  
+  gap: 0.5rem;
 }
 
 .card__icon {
   color: var(--color-primary);
   margin-top: 5px;
-
 }
