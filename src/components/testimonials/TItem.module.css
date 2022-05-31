@@ -16,10 +16,6 @@
   border: 0.4rem solid var(--color-primary-variant);
 }
 
-.client__name {
-
-}
-
 .client__review {
   color: var(--color-light);
   font-weight: 300;

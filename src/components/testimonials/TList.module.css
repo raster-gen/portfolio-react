@@ -1,6 +1,9 @@
+
+
 .testimonial__container {
   width: 40%;
 }
+
 
 @media screen and (max-width: 1024px) {
   .testimonial__container {
