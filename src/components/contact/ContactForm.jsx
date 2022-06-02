@@ -13,9 +13,12 @@ const ContactForm = () => {
         emailjs.sendForm('service_zjy93cc', 'template_0qct16k', form.current, 'sUtHkBr9GOHxthtNL')
             .then((result) => {
                 console.log(result.text);
+                // window.alert("Send message: OK")
             }, (error) => {
                 console.log(error.text);
             });
+        e.target.reset()
+
     };
 
     return (
